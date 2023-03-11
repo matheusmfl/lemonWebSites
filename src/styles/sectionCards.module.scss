@@ -1,0 +1,48 @@
+.sectionCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 150px;
+    gap: 40px;
+    
+
+//     span{
+//         font-family: 'Inter';
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 16px;
+//         line-height: 19px;
+//         text-align: center;
+// /* or 38px */
+
+
+// color: #FFFFFF;
+
+
+
+// }
+
+// .title{
+//     border-left: 8px solid #007676;
+//     padding-left: 40px;
+//     padding-right: 40px;
+//     max-width: 281px;
+
+    
+// font-family: 'Inter';
+// font-style: normal;
+// font-weight: 600;
+// font-size: 32px;
+// line-height: 120%;
+// text-align: left;
+// }
+//     }
+
+
+.divCards{
+    display: flex !important ;
+    gap: 20px;
+
+}
+}

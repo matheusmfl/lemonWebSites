@@ -1,0 +1,41 @@
+.sectionMobile {
+    position: relative;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+
+margin-left: -120px;
+gap: 80px;
+isolation: isolate;
+
+
+
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+div{
+   
+        max-width: 624px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+        gap: 20px;
+        margin-left: 80px;
+    
+}
+}

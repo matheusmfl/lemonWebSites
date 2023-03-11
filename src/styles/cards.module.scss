@@ -1,0 +1,31 @@
+.cards{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 20px;
+gap: 40px;
+
+width: 270px;
+height: 332px;
+
+background: #141414;
+/* Neumorphism 01 */
+
+box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.16), inset -4px -4px 12px rgba(0, 0, 0, 0.32), inset 4px 4px 8px rgba(255, 255, 255, 0.08);
+border-radius: 12px;
+
+
+span{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Branco */
+
+color: #FFFFFF;
+
+}
+}
