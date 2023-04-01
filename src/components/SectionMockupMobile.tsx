@@ -3,11 +3,9 @@ import Image from "next/image";
 import mockupIphone from "../assets/mockupIphone.svg";
 import { Button } from "./Button";
 
-
 export function SectionMockupMobile() {
   return (
     <section className={styles.sectionMobile} style={{ position: "relative" }}>
-    
       <div className={styles.ellipse}></div>
       <Image
         src={mockupIphone}

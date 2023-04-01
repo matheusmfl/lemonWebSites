@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { SectionAboutUs } from "@/components/sectionAboutUs";
-import { SectionCards } from "@/components/SectionCards";
+import { SectionIconsCards } from "@/components/SectionIconsCards";
 import { SectionFeedback } from "@/components/SectionFeedback";
 import { SectionMockupDesktop } from "@/components/SectionMockupDesktop";
 import { SectionMockupMobile } from "@/components/SectionMockupMobile";
@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSection />
       <SectionMockupDesktop />
       <SectionMockupMobile />
-      <SectionCards />
+      <SectionIconsCards />
       <SectionAboutUs />
       <SectionPriceCards />
       <SectionFeedback />

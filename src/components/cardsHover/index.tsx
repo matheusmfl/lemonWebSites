@@ -23,18 +23,19 @@ export function CardsHover({ imagem, color, margin }: cardsHoverProps) {
       }}
     >
       <div
-        style={{
-          position: "absolute",
-          bottom: "0px",
-          background: `linear-gradient(0deg, ${color} 0%, rgba(130, 33, 111, 0) 100%)`,
-          height: "133.37px",
-          width: "100%",
-          zIndex: "999999",
-          opacity: 1,
-        }}
+      // style={{
+      //   position: "absolute",
+      //   bottom: "0px",
+      //   background: `linear-gradient(0deg, ${color} 0%, rgba(130, 33, 111, 0) 100%)`,
+      //   height: "133.37px",
+      //   width: "100%",
+      //   zIndex: "999999",
+      //   opacity: 1,
+      // }}
       ></div>
       <Image
         src={imagem}
+        quality={100}
         alt="Imagem de Mockup"
         style={{
           height: "101%",

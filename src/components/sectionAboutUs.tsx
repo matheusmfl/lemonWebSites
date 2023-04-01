@@ -1,10 +1,8 @@
-import styles from "../styles/sectionAboutUs.module.scss";
-import bagImage from "../assets/bagHover.svg";
-import googleImage from "../assets/googleHover.svg";
-import celphoneImage from "../assets/celPhoneHover.svg";
-import textureImage from "../assets/textureHover.svg";
+import suport from "../assets/imgCards/suporteCardsImg.svg";
+import google from "../assets/imgCards/googleCardsImg.svg";
+import experiencia from "../assets/imgCards/experienciaCardsImg.svg";
+import vendas from "../assets/imgCards/vendasCardsImg.svg";
 import { CardsHover } from "./cardsHover";
-import { PriceCard } from "./priceCard";
 
 export function SectionAboutUs() {
   return (
@@ -51,10 +49,10 @@ export function SectionAboutUs() {
         }}
       >
         <div style={{ width: "calc(100% + 580px)", display: "flex" }}>
-          <CardsHover color="#77344E" imagem={bagImage} margin="-38px" />
-          <CardsHover color="#480001" imagem={googleImage} margin="-98px" />
-          <CardsHover color="#4A4A4A" imagem={celphoneImage} margin="-98px" />
-          <CardsHover color="#FEB845" imagem={textureImage} margin="-98px" />
+          <CardsHover color="#77344E" imagem={google} margin="-38px" />
+          <CardsHover color="#480001" imagem={vendas} margin="-98px" />
+          <CardsHover color="#4A4A4A" imagem={experiencia} margin="-98px" />
+          <CardsHover color="#FEB845" imagem={suport} margin="-98px" />
         </div>
       </div>
     </section>
