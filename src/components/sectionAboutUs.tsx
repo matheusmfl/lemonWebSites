@@ -50,9 +50,9 @@ export function SectionAboutUs() {
       >
         <div style={{ width: "calc(100% + 580px)", display: "flex" }}>
           <CardsHover color="#77344E" imagem={google} margin="-38px" />
-          <CardsHover color="#480001" imagem={vendas} margin="-98px" />
-          <CardsHover color="#4A4A4A" imagem={experiencia} margin="-98px" />
-          <CardsHover color="#FEB845" imagem={suport} margin="-98px" />
+          <CardsHover color="#480001" imagem={vendas} margin="-104px" />
+          <CardsHover color="#4A4A4A" imagem={experiencia} margin="-104px" />
+          <CardsHover color="#FEB845" imagem={suport} margin="-104px" />
         </div>
       </div>
     </section>
