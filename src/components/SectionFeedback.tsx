@@ -1,7 +1,7 @@
 import styles from "../styles/sectionFeedback.module.scss";
 import Image from "next/image";
 import bgFeedback from "../assets/feedbackBackground.svg";
-import Carousel from "./testeComponent";
+import Carousel from "./SwiperCarrosel";
 
 export function SectionFeedback() {
   return (

@@ -1,0 +1,18 @@
+.spanContainer{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 100px;
+    padding-top: 80px;
+    border-top: 1px solid transparent;
+    border-image-slice: 1;
+    border-image-source:
+      radial-gradient(40.76% 5870% at 50% 100%, #4C9893 0%, rgba(255, 255, 255, 0) 100%);
+    cursor: default;
+}
+ 

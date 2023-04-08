@@ -9,7 +9,9 @@ gap: 80px;
 isolation: isolate;
 
 
-
+.ellipse {
+    background: linear-gradient(235.57deg, #002D3C 20.35%, rgba(102, 104, 0, 0) 60.93%);
+}
 
 h2{
     font-family: 'Inter';
@@ -38,4 +40,9 @@ div{
         margin-left: 80px;
     
 }
+}
+
+.mockupIphone{
+    filter: drop-shadow(-34px 72px 52px rgba(0, 0, 0, 0.09));
+
 }

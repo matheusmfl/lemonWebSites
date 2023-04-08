@@ -1,47 +1,48 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import styles from "../../styles/cardsHover.module.scss";
 
 interface cardsHoverProps {
-  imagem: string;
-  color: string;
+  imagem: StaticImageData;
   margin: string;
+  type: "left" | "right" | "both";
 }
 
-export function CardsHover({ imagem, color, margin }: cardsHoverProps) {
+// 30% 0, 100% 0, 100% 100%, 0 100% - direita
+// 0 0, 100% 0, 70% 100%, 0 100% - esquerda
+// 30% 0, 100% 0, 70% 100%, 0 100% - centro
+export function CardsHover({ imagem, type, margin }: cardsHoverProps) {
   return (
     <div
       className={styles.teste}
       style={{
-        height: "339px",
-        width: "500px",
+        height: "360px",
+        width: "580px",
         position: "relative",
-        clipPath: "polygon(20% 0, 100% 0, 80% 100%, 0% 100%)",
+        clipPath: `polygon(${
+          type === "both"
+            ? "30% 0, 100% 0, 70% 100%, 0 100%"
+            : type === "left"
+            ? "0 0, 100% 0, 70% 100%, 0 100%"
+            : "30% 0, 100% 0, 100% 100%, 0 100%"
+        })`,
         opacity: 0.6,
         marginLeft: `${margin}`,
         overflow: "hidden",
         border: "0px solid white",
       }}
     >
-      <div
-      // style={{
-      //   position: "absolute",
-      //   bottom: "0px",
-      //   background: `linear-gradient(0deg, ${color} 0%, rgba(130, 33, 111, 0) 100%)`,
-      //   height: "133.37px",
-      //   width: "100%",
-      //   zIndex: "999999",
-      //   opacity: 1,
-      // }}
-      ></div>
       <Image
         src={imagem}
         quality={100}
         alt="Imagem de Mockup"
         style={{
-          height: "101%",
-          width: "100%",
-          objectFit: "cover",
-          overflowY: "hidden",
+          width: "100%", // Defina a largura da imagem como 100% para ocupar a div
+          height: "100%", // Defina a altura da imagem como 100% para ocupar a div
+          objectFit: "cover", // Defina o objectFit como cover para que a imagem seja redimensionada corretamente
+          objectPosition: "left center", // Defina a posição da imagem como centro
+          position: "absolute", // Defina a posição como absoluta para que a imagem fique dentro da div
+          top: 0, // Alinhe a imagem no topo da div
+          left: 0, // Alinhe a imagem na esquerda da div
         }}
       />
     </div>

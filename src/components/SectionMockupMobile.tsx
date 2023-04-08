@@ -5,9 +5,10 @@ import { Button } from "./Button";
 
 export function SectionMockupMobile() {
   return (
-    <section className={styles.sectionMobile} style={{ position: "relative" }}>
-      <div className={styles.ellipse}></div>
+    <section className={styles.sectionMobile}>
+      
       <Image
+      className={styles.mockupIphone}
         src={mockupIphone}
         alt="Iphone mostrando um site de corretora de seguros"
       />
@@ -25,14 +26,14 @@ export function SectionMockupMobile() {
       <div
         style={{
           position: "absolute",
-          left: "-350px",
+          left: "-300px",
           top: 0,
           bottom: "-200px",
           width: "50%",
           height: "100%",
           zIndex: "-1",
           background:
-            "linear-gradient(235.57deg, #006267 20.35%, rgba(0, 98, 103, 0) 86.5%)",
+            "linear-gradient(235.57deg, #002D3C 20.35%, rgba(102, 104, 0, .4) 60.93%)",
           filter: "blur(122.5px)",
           borderRadius: "50%",
         }}

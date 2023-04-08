@@ -7,9 +7,10 @@ import avatar from "../assets/avatarFeedback.svg";
 
 SwiperCore.use([Navigation, Pagination]);
 
-const Carousel = () => {
+const SwiperCarrosel = () => {
   return (
-    <Swiper
+    <div style={{maxWidth: '1440px', width: '100%'}}>
+ <Swiper
       spaceBetween={30}
       slidesPerView={1}
       navigation
@@ -117,7 +118,10 @@ const Carousel = () => {
         </div>
       </SwiperSlide>
     </Swiper>
+
+    </div>
+   
   );
 };
 
-export default Carousel;
+export default SwiperCarrosel;
