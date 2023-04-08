@@ -13,8 +13,6 @@ export default function Home() {
     <>
     <Header />
     <div style={{maxWidth: '1440px', margin: 'auto'}}>
-   
-      
       <HeroSection />
       <SectionMockupDesktop />
       <SectionMockupMobile />
@@ -22,8 +20,8 @@ export default function Home() {
       <FloatCards />
       <SectionPriceCards />
       <SectionFeedback />
-      
     </div>
+    
     <Footer />
     </>
   );

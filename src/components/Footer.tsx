@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from '../assets/Footer/Logo.png'
+import logo from '../assets/Footer/logo.png'
 import styles from '../styles/footer.module.scss'
 import { FacebookLogo, InstagramLogo, TwitterLogo, YoutubeLogo } from "phosphor-react";
 
